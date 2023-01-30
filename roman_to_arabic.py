@@ -3,7 +3,7 @@ def roman_to_arabic(roman_num):
                   'CD': 400, 'C': 100, 'XC': 90,
                   'L': 50, 'XL': 40, 'X': 10,
                   'IX': 9, 'V': 5, 'IV': 4, 'I': 1}
-    roman_num = str(roman_num.upper()) + ' '  # Adds space to roman number and gets all symbols in uppercase
+    roman_num = roman_num.upper() + ' '  # Adds space to roman number and gets all symbols in uppercase
     letter_lst = []  # List of roman number letters
     for e in roman_num:
         letter_lst.append(e)
